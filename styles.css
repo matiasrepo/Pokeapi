@@ -1,0 +1,84 @@
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ec811d; /* Cambiando el fondo a un color pastel más similar a #ec811d */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.container {
+    background-color: #c3e0b6;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+h1 {
+    color: #333;
+    font-family: "Pokemon Solid", Arial, sans-serif; /* Usar la fuente Pokemon Solid */
+    font-size: 32px; /* Ajustar el tamaño del título según sea necesario */
+}
+
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input[type="number"]:focus {
+    width: calc(100% - 40px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #36aa45;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card {
+    margin-top: 20px;
+    border: 1px solid #f7e585;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #f9f9f9; /* Cambiando el fondo del contenedor de la tarjeta para crear contraste */
+}
+
+.card img {
+    max-width: 100%;
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 300px;
+    }
+}
