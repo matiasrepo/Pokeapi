@@ -10,6 +10,21 @@ body {
     transition: background-color 0.3s ease-in-out;
 }
 
+/* Estilo para el título "Atrapalos todos!" */
+.title {
+    font-size: 36px;
+    color: #ff6600; /* Color bonito para el título */
+    margin-bottom: 10px; /* Espacio inferior para separarlo del subtítulo */
+    font-family: "Pokemon Solid", Arial, sans-serif; /* Usar la fuente Pokemon Solid */
+}
+
+/* Estilo para el subtítulo "Ingresar un número:" */
+.subtitle {
+    font-size: 18px;
+    color: #333; /* Color de subtítulo */
+    margin-bottom: 10px; /* Espacio inferior para separarlo del campo de entrada */
+}
+
 .container {
     background-color: #c3e0b6;
     border-radius: 8px;
